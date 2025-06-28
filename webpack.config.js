@@ -29,9 +29,7 @@ const config = {
         strict: true,
         partials: ['src/partials'],
       },
-      data: {
-        title: 'My Title',
-      },
+      data: './src/data/index.js',
     }),
   ],
 
