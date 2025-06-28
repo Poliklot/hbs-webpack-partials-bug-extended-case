@@ -1,0 +1,1 @@
+Related to [html-bundler-webpack-plugin#174](https://github.com/webdiscus/html-bundler-webpack-plugin/issues/174)
