@@ -29,7 +29,10 @@ const config = {
         strict: true,
         partials: ['src/partials'],
       },
-      data: './src/data/index.js',
+      data: './src/data/index.mjs',
+      watchFiles: {
+        includes: [/\/data\/.+\.(m?js|json)$/], // <= watch changes of all mjs, js, json files under data dir
+      },
     }),
   ],
 
