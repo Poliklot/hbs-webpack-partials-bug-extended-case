@@ -2,6 +2,8 @@ import HtmlBundlerPlugin from 'html-bundler-webpack-plugin';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+import helpers from './handlbars.helpers.js';
+
 // Since we're using ES modules, we need to get __dirname differently
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -28,6 +30,7 @@ const config = {
       preprocessorOptions: {
         strict: true,
         partials: ['src/partials'],
+        helpers: helpers(),
       },
       data: './src/data/index.mjs',
       watchFiles: {
