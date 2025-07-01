@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Poliklot/hbs-webpack-partials-bug-extended-case#readme",
   "devDependencies": {
     "handlebars": "^4.7.8",
-    "html-bundler-webpack-plugin": "^4.20.8",
+    "html-bundler-webpack-plugin": "^4.20.9",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"
